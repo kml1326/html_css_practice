@@ -1,0 +1,56 @@
+.parent{
+	padding: 10px;
+	background-color: lightcoral;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.child1{
+	margin: 20px;
+	padding: 10px;
+	background-color: black;
+}
+.child3{
+	margin: 20px;
+	border:20px;
+	background-color: aqua;
+	height: 180px;
+	width: 180px;
+	border-color: #bada55;
+	border-style: solid;
+	display: inline-block;
+}
+h1{
+	margin-bottom: 30px;
+}	
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.color1{
+	background-color: lightcoral;
+}	
+.color2{
+	background-color: black;
+}
+.color3{
+	background-color: #bada55;
+}
+.color4{
+	background-color: aqua;
+}
+p{
+	margin-right: 20px;
+	display: inline;
+}
+.margin{
+	width: 380px;
+	height: 430px;
+	margin: 0 auto;
+}
+.margin2{
+	width: 420px;
+	height: 40px;
+	margin: 0 auto;
+}
