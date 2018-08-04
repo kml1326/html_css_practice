@@ -1,0 +1,49 @@
+.box{
+	box-sizing: content-box;
+	border-style:none;
+	height: 150px;
+	margin: 8px;
+	display: inline-block;
+}
+.box1{
+	width: 320px;
+}
+.box2{
+	width: 150px;
+}
+.color1{
+	background-color: tomato;
+}
+.color2{
+	background-color: olive;
+}
+.color3{
+	background-color: fuchsia;
+}
+.color4{
+	background-color: aqua;
+}
+.color5{
+	background-color: mediumseagreen;
+}
+.color6{
+	background-color: lime;
+}
+.color7{
+	background-color: yellow;
+}
+.color8{
+	background-color: orange;
+}
+.color9{
+	background-color: red;
+}
+.text{
+	height: 10px;
+	border: 5px;
+	margin: 10px;
+}
+.margin{
+	width: 680px;
+	margin: 0 auto;
+}
