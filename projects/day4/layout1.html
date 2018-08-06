@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="layout1.css">
+</head>
+<body>
+	<section class="wraper">
+		<h1>No Floats</h1>
+		<p>
+			<img src="image.png" width="60px" height="60px">
+			Conceptually, the highest level abstraction for CSS layout is the positioning scheme. Once a positioning scheme has been determined, it can be further modified by specific layout modes, such as display: table or display: inline-table. Even the CSS 3 extensions - which introduced layout modes such as flexbox and grid - still exist within one of the main positioning schemes (e.g. display: flex vs. display: inline-flex).
+		</p>
+		<br><hr>
+		<h1>Float: Left;</h1>
+		<p>
+			<img class="float_left" src="image.png" width="60px height="60px">
+			Conceptually, the highest level abstraction for CSS layout is the positioning scheme. Once a positioning scheme has been determined, it can be further modified by specific layout modes, such as display: table or display: inline-table. Even the CSS 3 extensions - which introduced layout modes such as flexbox and grid - still exist within one of the main positioning schemes (e.g. display: flex vs. display: inline-flex).
+		</p>
+		<br>
+		<h1>Float: Right:</h1>
+		<p>
+			<img class="float_right" src="image.png" width="60px" height="60px">
+			Conceptually, the highest level abstraction for CSS layout is the positioning scheme. Once a positioning scheme has been determined, it can be further modified by specific layout modes, such as display: table or display: inline-table. Even the CSS 3 extensions - which introduced layout modes such as flexbox and grid - still exist within one of the main positioning schemes (e.g. display: flex vs. display: inline-flex).
+		</p>
+		<br><hr>
+		<h1>Two objects, Float: Left;</h1>
+		<p>
+			<img class="float_left" src="image.png" width="60px" height="60px">
+			<img class="float_left" src="css.jpg" width="60px" height="60px">
+			Conceptually, the highest level abstraction for CSS layout is the positioning scheme. Once a positioning scheme has been determined, it can be further modified by specific layout modes, such as display: table or display: inline-table. Even the CSS 3 extensions - which introduced layout modes such as flexbox and grid - still exist within one of the main positioning schemes (e.g. display: flex vs. display: inline-flex).
+		</p>
+		<br>
+		<h1>Two objects, Float: Right;</h1>
+		<p>
+			<img class="float_right" src="image.png" width="60px" height="60px">
+			<img class="float_right" src="css.jpg" width="60px" height="60px">
+			Conceptually, the highest level abstraction for CSS layout is the positioning scheme. Once a positioning scheme has been determined, it can be further modified by specific layout modes, such as display: table or display: inline-table. Even the CSS 3 extensions - which introduced layout modes such as flexbox and grid - still exist within one of the main positioning schemes (e.g. display: flex vs. display: inline-flex).
+		</p>
+		<br><hr>
+		<h1>No floats, No words</h1>
+		<div class="box">
+			<img src="image.png">
+		</div>
+		<br>
+		<br><hr><br>
+		<h1>Float: left; No words</h1>
+		<div class="box"><img class="float_left" width="60px" height="60px" src="image.png"></div>
+		<br><br>
+		<h1>Many floats, Not floating</h1>
+		<div class="box">
+			<div class="float_left box2"></div>
+			<div class="float_left box2"></div>
+			<div class="float_left box2"></div>
+			<div class="float_left box2"></div>
+		</div>
+		
+		<h1>Many floats, No words</h1>
+		<div class="box">
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+		</div>
+		<div class="clear"></div>
+		<h1>Many floats, No words + last one clear</h1>
+		<div class="box">
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3 clear"></div>
+		</div>
+		<div class="clear"></div>
+		<h1>Many floats, No words + invisible non floating clearing object</h1>
+		<div class="box">
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="clear"></div>
+		</div>
+		Hello I am other content
+			<hr>
+		<h1>Many floats, No word + ClearFix</h1>
+		<div class="box group">
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+			<div class="float_left box3"></div>
+		</div>
+		Hello I am other contant
+	</section>
+</body>
+</html>

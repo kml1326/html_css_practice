@@ -1,64 +1,60 @@
+h2{
+	margin: 50px 0 25px 25px;
+}
+.box{
 
-			.box{
-
-				border: 5px;
-				margin: 35px;
-				padding: 10px;
-				background-color: red;
-				height: 120px;
-				width: 150px;
-				display: inline-block;
-			}
-			.border1{
-				border-style: solid;
-				border-color: black; 
-			}
-			.border2{
-				border-style: double;
-				border-color: black;
-			}
-			.border3{
-				border-style: dashed;
-				border-color: black;
-
-			}
-			.border4{
-				border-style: dotted;
-				border-color: black;
-			}
-			.border5{
-				border-style: none;
-
-			}
-			.e2box1{
-				box-sizing: content-box;
-				width: 400px;
-				/*height: 120px;*/
-				background-color: teal;
-				display: inline-block;
-				padding: 10px;
-			}
-			.e2box2{
-				box-sizing: content-box;
-				background-color: lime;
-				border: 10px;
-				border-color: red;
-				border-style: solid;
-				padding: 20px;
-				text-align: center;
-			}
-			.e3box1{
-				box-sizing: border-box;
-				background-color: teal;
-				/*height: 120px;*/
-				width: 400px;
-				display: inline-block;
-				padding: 10px;
-			}
-			.e3box3{
-				box-sizing: border-box;
-				background-color: lime;
-				padding: 20px;
-				border: 10px solid red;
-				text-align: center;
-			}
+	border: 5px;
+	margin: 35px;
+	padding: 10px;
+	background-color: red;
+	height: 120px;
+	width: 150px;
+	display: inline-block;
+}
+.border1{
+	border-style: solid;
+	border-color: black; 
+}
+.border2{
+	border-style: double;
+	border-color: black;
+}
+.border3{
+	border-style: dashed;
+	border-color: black;
+}
+.border4{
+	border-style: dotted;
+	border-color: black;
+}
+.e2box1{
+	box-sizing: content-box;
+	width: 400px;
+	background-color: teal;
+	display: inline-block;
+	padding: 10px;
+}
+.e2box2{
+	box-sizing: content-box;
+	background-color: lime;
+	border: 10px;
+	border-color: red;
+	border-style: solid;
+	padding: 20px;
+	text-align: center;
+	color: blue;
+}
+.e3box1{
+	box-sizing: border-box;
+	background-color: teal;
+	width: 400px;
+	display: inline-block;
+	padding: 10px;
+}
+.e3box3{
+	background-color: lime;
+	padding: 20px;
+	border: 10px solid red;
+	text-align: center;
+	color: blue;
+}

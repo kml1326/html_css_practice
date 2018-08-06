@@ -1,15 +1,13 @@
 .box{
 	box-sizing: content-box;
 	border-style:none;
-	height: 150px;
+	height: 180px;
+	width: 180px;
 	margin: 8px;
 	display: inline-block;
 }
 .box1{
-	width: 320px;
-}
-.box2{
-	width: 150px;
+	width: 360px;
 }
 .color1{
 	background-color: tomato;
@@ -44,6 +42,6 @@
 	margin: 10px;
 }
 .margin{
-	width: 680px;
+	width: 780px;
 	margin: 0 auto;
 }
