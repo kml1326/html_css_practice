@@ -22,56 +22,41 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-/*
-  ========================================
-  Grid
-  ========================================
-*/
-
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+body{
+	color:#888;
+	font: 300 16px/22px "open sans", "Helvetica Neue"
 }
-.group:before,
-.group:after {
-  content: "";
-  display: table;
+h1, h2, h3, h4{
+	color: #648880;
 }
-.group:after {
-  clear: both;
+h1 {
+  font-size: 36px;
+  line-height: 44px;
 }
-.group {
-  clear: both;
-  *zoom: 1;
+h2 {
+  font-size: 24px;
+  line-height: 44px;
 }
-.header_color{
-	background-color:gray;
-  padding: 30px;
+h3 {
+  font-size: 21px;
 }
-.color{
-	background-color: black;
-  padding: 10px;
+h4 {
+  font-size: 18px;
 }
-footer{
- clear: both;
- padding-bottom:30px;
- margin-top: 100px;
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
 }
-.text_color{
-	color: white;
+strong {
+  font-weight: 400;
+}
+cite, em {
+  font-style: italic;
+}
+a:hover{
+	color:#a9b2b9;
 }
 a{
-  color: white;
-  padding: 20px;
-}
-h1, h2, p{
-  margin: 30px;
-}
-.image{
-  margin:0 auto;
-  width: 200px;
-  margin-top: 20px;
+	color: #648880;
 }

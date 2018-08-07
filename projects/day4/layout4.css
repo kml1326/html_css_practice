@@ -31,9 +31,7 @@ time, mark, audio, video {
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing:content-box;
 }
 .group:before,
 .group:after {
@@ -47,42 +45,16 @@ time, mark, audio, video {
   clear: both;
   *zoom: 1;
 }
-.wraper{
-  margin: 20px;
-}
-h1{
-	margin:30px 0;
-  font-size: 30px;
-}
 .box{
-  border-radius: 6px;
-  padding: 5px;
-	width: 45%;
-	display : inline-block;
-}
-.box_margin{
-  margin-bottom: 20px;
-  margin-right: 20px;
+  box-sizing: border-box;
+	display: inline-block;
+	width: 50%;
+  padding: 2%;
 }
 .color_pink{
-  background-color: tomato;
-}
-.color_lime{
-  background-color: lime;
-  width: 46%;
-}
-.top{
-	vertical-align: top;
-}
-.left{
+	background-color: pink;
   float: left;
 }
-.section3{
-  margin-top: 20px;
-  width: 50%;
-  margin-right: 20px;
-}
-.section4{
-  width: 50%;
-  margin: 20px 0;
+.color_aqua{
+	background-color: aqua;
 }

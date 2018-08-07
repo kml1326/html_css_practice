@@ -35,54 +35,22 @@ time, mark, audio, video {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
-.wraper{
-  margin: 20px;
-}
-h1{
-	margin:30px 0;
-  font-size: 30px;
+header{
+  background-color: aqua;
 }
 .box{
-  border-radius: 6px;
-  padding: 5px;
-	width: 45%;
-	display : inline-block;
+  width: 21%;
+  padding: 2%;
+  display: inline-block;
+  text-align: center;
 }
-.box_margin{
-  margin-bottom: 20px;
-  margin-right: 20px;
+p{
+  text-align: center;
+  margin: 20px 200px;
 }
-.color_pink{
-  background-color: tomato;
-}
-.color_lime{
-  background-color: lime;
-  width: 46%;
-}
-.top{
-	vertical-align: top;
-}
-.left{
-  float: left;
-}
-.section3{
-  margin-top: 20px;
-  width: 50%;
-  margin-right: 20px;
-}
-.section4{
-  width: 50%;
-  margin: 20px 0;
+.footer_box{
+  margin:5%;
+  width: 15%;
+  display: inline-block;
+  text-align: center;
 }

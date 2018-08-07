@@ -5,19 +5,52 @@
 	<link rel="stylesheet" type="text/css" href="layout3.css">
 </head>
 <body>
+	<section class="wraper">
 	<h1>Side-By-Side Positioning Demo</h1>
+
+	<!-- first section start -->
+
 	<section>
-		<div class="box top">
+		<div class="box top color_pink box_margin">
 			<p>For example, an element with a display value of inline,</p>
 		</div>
-		<div class="box">
+		<div class="box box_margin color_pink">
 			<p>When floating an element, it is also important to recognize that an element is removed from the normal flow of a page, and that may change an element’s default display value. The float property relies on an element having a display value of block, and may alter an element’s default display value if it </p>
 		</div>
 	</section>
+
+	<!-- second section start -->
+
 	<section>
-		<div class="box top">
-			<p>
+		<div class="box top color_lime left">
+			<p>For example, an element with a display value of inline,</p>
 		</div>
+		<div class="box left color_lime">
+			<p>When floating an element, it is also important to recognize that an element is removed from the normal flow of a page, and that may change an element’s default display value. The float property relies on an element having a display value of block, and may alter an element’s default display value if it </p>
+		</div>
+	</section>
+
+	<!-- third section statr -->
+
+	<section>
+		<div class="box color_pink left section3">
+			<p>For example, an element with a display value of inline,When floating an element, it is also important to recognize that an element is removed from the normal flow of a page,</p>
+		</div>
+		<div class="box color_pink left section3">
+			<p>For example, an element with a display value of inline,When floating an element, it is also important to recognize that an element is removed from the normal flow of a page,</p>
+		</div>
+	</section>
+
+	<!-- last section start -->
+
+	<section>
+		<div class="box color_lime left section4">
+			<p>For example, an element with a display value of inline,When floating an element, it is also important to recognize that an element is removed</p>
+		</div>
+		<div class="box left color_lime section4">
+			<p>When floating an element, it is also important to recognize that an element is removed from the normal flow of a page, and that may change an element’s default display value. The float property relies on an element having a display value of block, and may alter an element’s default display value if it </p>
+		</div>
+	</section>
 	</section>
 </body>
 </html>

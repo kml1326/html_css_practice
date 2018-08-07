@@ -22,56 +22,44 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-/*
-  ========================================
-  Grid
-  ========================================
-*/
-
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+body{
+	background-color: #282e2b;
+	font-size: 12px;
 }
-.group:before,
-.group:after {
-  content: "";
-  display: table;
+.wrapper{
+	margin: 20px auto;
+	width: 680px;
+	color: white;
+	font-family: 'roboto slab', sans-serif;
 }
-.group:after {
-  clear: both;
+h1{
+	font-size: 30px;
 }
-.group {
-  clear: both;
-  *zoom: 1;
-}
-.header_color{
-	background-color:gray;
-  padding: 30px;
+h2{
+	font-size: 26px;
 }
 .color{
-	background-color: black;
-  padding: 10px;
+	color: red;
 }
-footer{
- clear: both;
- padding-bottom:30px;
- margin-top: 100px;
+.heading{
+	margin: 10px;
+	font-size: 16px;
 }
-.text_color{
-	color: white;
+.left{
+	float: left;
 }
-a{
-  color: white;
-  padding: 20px;
+.right{
+	float: right;
 }
-h1, h2, p{
-  margin: 30px;
+.clear{
+	clear: both;
 }
-.image{
-  margin:0 auto;
-  width: 200px;
-  margin-top: 20px;
+p, h1, h2{
+	margin: 20px 0;	
+}
+
+h1, h2{
+	font-weight: 600;
+	text-shadow: 2px 2px 2px  black;
+	font-family: 'roboto slab', sans-serif;
 }
