@@ -1,0 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/*=================================
+		Main
+	================================*/
+
+.container{
+	position: absolute;
+	background-color: rgba(0,0,0,0.6);
+	top:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
+body{
+	background:url("background-img.jpg") center center no-repeat fixed;
+	background-size: cover;
+}
+h1{
+	text-align: center;
+	font-weight: 700;
+	margin:2%;
+	color: white;
+	font-size: 24px;
+}
+
+
+/*  ======================================
+			Gradient Boxes
+	======================================  */
+
+.box{
+	position: relative;
+	background-color: teal;
+	width: 20%;
+	height:150px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 10px;
+	margin: 25px;
+}
+.b{
+	text-align: center;
+}
+.text_box{
+	text
+}
+.linear_grad{
+	background:linear-gradient(to right, teal, purple);
+}
+.radial_grad{
+	background: radial-gradient(purple, teal);
+}
+
+/*  =======================================
+			Image Box
+	====================================== */
+
+.image_box{
+	position: relative;
+	margin: 50px auto;
+	background: url("image.jpeg") center no-repeat;
+	height: 300px;
+	width: 85%;
+	border-radius: 10px;
+	text-align: center;
+}
+span{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.container2{
+	background-color: red;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index:-1;
+}
