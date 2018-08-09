@@ -1,0 +1,18 @@
+code{
+	background-color: lime;
+	text-align: center;
+	display: block;
+	padding: 24px 15px;
+	border-radius: 6px;
+}
+section{
+	float: left;
+	width: 30%; 
+}
+footer{
+	margin: 0;
+	clear: both;
+}
+header, section, footer{
+	margin: 12px 1.5% 12px 1.5%;
+}
