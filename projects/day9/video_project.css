@@ -1,0 +1,121 @@
+* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+.container{
+	max-width: 992px;
+	width: 100%;
+	margin: 0 auto;
+}
+header{
+	background-color: lightgray;
+}
+.header-div{
+	padding: 15px 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+nav{
+
+}
+a{
+	text-decoration: none;
+	margin: 5px 5px;
+	border-right: 1px solid black;
+	color: black;
+}
+.clr{
+	background-color: gray;
+}
+.row{
+	width: 67%;
+	display: inline-block;
+}
+.col-1-3{
+	width: 45%;
+	margin:  3.5% 2%;
+	display: inline-block;
+}
+.col-1-3-3{
+	width: 27%;
+	margin: 2.5%;
+	display: inline-block;
+	float: right;
+}
+img{
+	width: 100%;
+	height: 200px;
+}
+.col-1-2{
+	width: 62%;
+	display: inline-block;
+	margin-right: 2.5%;
+	float: left;
+}
+aside{
+	display: inline-block;
+	width: 34%;
+	float: right;
+}
+
+.aside-box1{
+	background-color: skyblue; 
+}
+.aside-box2{
+	background-color: yellow;
+}
+@media screen and (max-width:500px){
+	.container{
+		width: auto;
+	}
+	.col-1-3, .col-1-3-3,.col-1-2, aside{
+		display: block;
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+	}
+	.aside-box2{
+		display: none;
+	}
+
+}
+@media  (min-width: 500px) and (max-width: 800px){
+	.container{
+		width: auto;
+	}
+	.row{
+		width:100%;
+		display:block;
+	}
+	.col-1-3-3{
+		display: block;
+		width: 97%;
+		padding-left: 20px;
+	}
+	.col-1-3-3 img{
+		width: 100%;
+		height: 500px;
+	}
+	a{
+		width: 25%;
+	}
+}

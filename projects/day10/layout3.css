@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+body{
+	background:#36555E;
+	font-family: 'Maven Pro', sans-serif;
+}
+h1{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	margin: 20px;
+	color: white;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+.hero{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-areas:
+	"header none none" 
+	"side1 main side3"
+	"side2 main side4"
+	"side2 main side5"
+}
+nav{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	border-top: 2px solid deepskyblue;
+}
+.header{
+	background-color: white;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: deepskyblue;
+	text-align: center;
+	padding: 10px 0;
+}
+.main img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+img{
+	margin: 10px 0 10px 50%;
+	transform: translate(-50%,0);
+}
+h2{
+	font-size: 18px;
+}
+div p:last-child{
+	color: red;
+}
+.side1{
+	grid-area: side1;
+}
+.main{
+	grid-area: main;
+}
+.side2{
+	grid-area: side2;
+	margin-bottom: 20px;
+}
+.side3{
+	grid-area: side3;
+}
+.side3 p:last-child{
+	background: red;
+	color: white;
+}
+.side4{
+	grid-area: side4;
+}
+.side4 h2{
+	color: white;
+	background: deepskyblue;
+}
+.side5{
+	grid-area: side5;
+}
+.color{
+	background: white;
+	border-top: 2px solid deepskyblue;
+}
+p, h2{
+	padding: 5px 20px;
+}
+@media (min-width: 420px) and (max-width: 780px){
+	.wrapper{
+		width: 95%;
+		margin: 0 auto
+	}
+	.hero{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-areas:
+	"header none" 
+	"side1 side3"
+	"side2 side4"
+	"side2 side5"
+	"main side"
+	}
+
+}
+@media screen and (max-width: 420px){
+	.wrapper{
+		width: 95%;
+		margin: 0 auto;
+	}
+	.hero{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr;
+	grid-template-areas: 
+	"header"
+	"side1"
+	"side2"
+	"main"
+	"side3"
+	"side4"
+	"side5"
+	}
+
+}

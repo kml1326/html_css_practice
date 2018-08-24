@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: middle;
+}
+
+/*  =======================================
+            HOVER CLASSES
+    =======================================  */
+
+a:hover,
+.btn:hover{
+  background-color: darkblue;
+  color: white;
+}
+
+/* ==========================================
+               Body
+   ========================================== */
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
+body{
+  background-color: darkgreen;
+}
+/* ==========================================
+             Header                    
+   ========================================== */
+
+header{
+  background: url("../../assets/media/background.jpg") center no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 300px;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+  font-style: bold;
+}
+nav{
+  text-align: center;
+}
+h1, h2{
+  font-family: 'Patua One', cursive;
+  font-size: 35px;
+  text-align: center;
+}
+
+
+/*  ======================================
+            MAIN  
+    ======================================  */
+
+.box{
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-block;
+  padding: 10px 10px 30px 10px;
+}
+.box-shadow{
+  box-shadow: 0 0 8px 2px black;
+}
+.box1-color{
+  background:darkkhaki;
+  border-top: 5px solid lightgreen;
+}
+h2{
+  color: white;
+  margin: 10px 0;
+}
+.box2-color{
+  background:lime; 
+}
+.box3-color{
+  background: lightgreen;
+}
+.col-1-3{
+  display: inline-block;
+  width:100%;
+  margin: 2px 10px;
+  text-align: center;
+}
+.row{
+  width: 32%;
+  display: inline-block;
+}
+.audio{
+  margin: 85px 0;
+}
+video{
+  margin: 45px 0;
+}
+p{
+  text-align: center;
+  margin: 20px 20px;
+}
+.video-box{
+  background: white;
+  margin: 30px 50px;
+  padding: 30px;
+  width: 760px;
+}
+
+/*  ========================================
+            FORM
+    ========================================  */
+
+form{
+  box-sizing: border-box;
+  background-color: white;
+  width: 790px;
+  margin: 20px 40px;
+  padding: 40px;
+  text-align: center;
+}
+h3{
+  font-family: 'Kirang Haerang', cursive;
+  margin-bottom:20px;
+}
+.input{
+  margin: 10px 0;
+}
+.input-box1,
+form{
+   display: inline-block;
+}
+.input-box1{
+  width: 320px;
+  height: 30px;
+}
+.input-box2{
+  width: 695px;
+  height: 30px;
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+.input-box3{
+  width: 705px;
+  height: 100px;
+  margin: 10px 0;
+}
+.btn{
+  padding:10px;
+  background-color: darkgreen;
+  color: white;
+  font-family: 'Kirang Haerang', cursive;
+  width: 150px;
+  cursor: pointer;
+}
+.text_style{
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+/*  ======================================
+                FOOTER
+    ======================================  */
+
+.footer{
+  background: darkslategray;
+  padding: 40px 40px 20px 40px;
+}
+footer nav a{
+  color: silver;
+}
+
+@media all and (min-width:320px) and (max-width:960px){
+  .container, .row, .box, form{
+    width: auto;
+  }
+  .input-box1, .input-box2, .input-box3, textarea{
+    float: none;
+    width: 100%;
+  }
+  .footer{
+    margin: 0 auto;
+    width: 100%;
+  }
+  iframe{
+    width: 100%;
+    height: 100%;
+  }
+  .btn{
+    display: block;
+  }
+  a{
+    display: block;
+    text-align: center;
+  }
+  .video-box{
+  background: white;
+  margin: 0 auto;
+  padding: 30px;
+  width: 100%;
+}
+
+}

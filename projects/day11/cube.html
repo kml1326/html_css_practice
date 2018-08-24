@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+.cube-container{
+  height:400px;
+  width:400px;
+  perspective:800px;
+  margin:200px auto;
+}
+.cube{
+  width:100%;
+  transform-style:preserve-3d;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.cube div{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	opacity: .8;
+}
+.front{
+  transform: translateZ(200px);
+  background-color: #1f122c;
+}
+.back{
+  transform: rotateY(180deg) translateZ(200px);
+  background-color:yellow;
+}
+.left{
+  transform: rotateY(-90deg) translateX(-200px);
+  background-color:lime;
+  transform-origin: left;
+}
+.right{
+  transform:rotateY(90deg) translateX(200px);
+  background-color:pink;
+  transform-origin: right;
+}
+.box5{
+  transform:rotateX(-90deg) translateY(-200px);
+  background-color: red;
+  transform-origin: top;
+}
+.box6{
+  transform:rotateX(90deg) translateY(200px);
+  background-color: skyblue;
+  transform-origin: bottom;
+}
+span{
+	margin-top: 50px;
+	display: inline-block;
+}
+</style>
+</head>
+<body>
+	<div class="cube-container">
+
+  		<div class="cube">
+		    <div class="front"><span>FRONT</span></div>
+		    <div class="back"><span>BACK</span></div>
+		    <div class="left"><span>LEFT</span></div>
+		    <div class="right"><span>RIGHT</span></div>
+		    <div class="box5"><span>TOP</span></div>
+		    <div class="box6"><span>BOTTOM</span></div>
+  		</div>
+
+	</div>
+
+</body>
+</html>
